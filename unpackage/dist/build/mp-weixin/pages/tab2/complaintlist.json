@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "投诉",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uview-ui/components/u-collapse/u-collapse"],{2963:function(t,e,n){"use strict";var u;n.d(e,"b",(function(){return c})),n.d(e,"c",(function(){return o})),n.d(e,"a",(function(){return u}));var c=function(){var t=this,e=t.$createElement;t._self._c},o=[]},5050:function(t,e,n){"use strict";n.r(e);var u=n("c3e0"),c=n.n(u);for(var o in u)"default"!==o&&function(t){n.d(e,t,(function(){return u[t]}))}(o);e["default"]=c.a},"5ef5":function(t,e,n){"use strict";var u=n("c49e"),c=n.n(u);c.a},a097:function(t,e,n){"use strict";n.r(e);var u=n("2963"),c=n("5050");for(var o in c)"default"!==o&&function(t){n.d(e,t,(function(){return c[t]}))}(o);n("5ef5");var r,a=n("f0c5"),i=Object(a["a"])(c["default"],u["b"],u["c"],!1,null,"52215176",null,!1,u["a"],r);e["default"]=i.exports},c3e0:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u={name:"u-collapse",props:{accordion:{type:Boolean,default:!0},headStyle:{type:Object,default:function(){return{}}},bodyStyle:{type:Object,default:function(){return{}}},itemStyle:{type:Object,default:function(){return{}}},arrow:{type:Boolean,default:!0},arrowColor:{type:String,default:"#909399"},hoverClass:{type:String,default:"u-hover-class"}},created:function(){this.childrens=[]},data:function(){return{}},methods:{init:function(){this.childrens.forEach((function(t,e){t.init()}))},onChange:function(){var t=[];this.childrens.forEach((function(e,n){e.isShow&&t.push(e.nameSync)})),this.accordion&&(t=t.join("")),this.$emit("change",t)}}};e.default=u},c49e:function(t,e,n){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uview-ui/components/u-collapse/u-collapse-create-component',
+    {
+        'uview-ui/components/u-collapse/u-collapse-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a097"))
+        })
+    },
+    [['uview-ui/components/u-collapse/u-collapse-create-component']]
+]);

@@ -1,0 +1,1 @@
+<view>asdfae<web-view src="../../hybrid/html/pdf.html?url=http://www.mhitco.com:9098/api/Image/GetPdf?pdf=1.pdf"></web-view></view>

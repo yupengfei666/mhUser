@@ -1,0 +1,1 @@
+<view class="content"><view style="font-size:40rpx;text-align:center;margin:20rpx;">{{form.Question}}</view><rich-text nodes="{{form.Content}}"></rich-text></view>

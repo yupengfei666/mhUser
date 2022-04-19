@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "行为详情",
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "qiun-data-charts": "/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "my-pick-date": "/components/common/myPickDate"
+  }
+}

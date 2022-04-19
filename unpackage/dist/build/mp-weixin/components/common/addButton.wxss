@@ -1,0 +1,1 @@
+.addButton .cButton{background-color:#18b566;width:80rpx;height:80rpx;border-radius:50%;display:flex;justify-content:center;align-items:center;position:fixed;z-index:9;bottom:3%;right:3%;font-size:44rpx;box-shadow:0rpx 0rpx 16rpx green;color:#fff}

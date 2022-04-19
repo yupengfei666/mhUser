@@ -1,0 +1,1 @@
+<view class="addButton"><view class="cButton" id="cButton" data-event-opts="{{[['tap',[['$emit',['click']]]]]}}" bindtap="__e"><label style="margin-top:-10rpx;" class="_span">+</label></view></view>
