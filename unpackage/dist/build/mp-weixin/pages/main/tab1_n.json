@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "设备监控",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-collapse": "/uview-ui/components/u-collapse/u-collapse",
+    "u-collapse-item": "/uview-ui/components/u-collapse-item/u-collapse-item",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

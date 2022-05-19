@@ -135,7 +135,8 @@
 				let p = {
 					pid: 'all',
 					pageSize: 100,
-					pageIndex: 1
+					pageIndex: 1,
+					CraneID: this.qzjId
 				}
 				this.bcList = [{
 					value: 'all',

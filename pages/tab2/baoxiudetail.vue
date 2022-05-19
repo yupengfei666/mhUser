@@ -4,6 +4,11 @@
 			<u-form-item label="工单号">
 				<span>{{form.OrderID}}</span>
 			</u-form-item>
+			<u-form-item label="完成内容" v-if="form.ReMark">
+				<view style="line-height: 38rpx;">
+					<text>{{form.ReMark}}</text>
+				</view>
+			</u-form-item>
 			<u-form-item label="起重机">
 				<span>{{form.CraneName}}</span>
 			</u-form-item>
@@ -23,7 +28,7 @@
 				<span>{{form.ContactPersonName}}</span>
 			</u-form-item>
 			<u-form-item label="联系电话">
-				<span>{{form.ContactNumber}}</span>
+				<span style="color: #007AFF;font-weight: bold;" @click="callPhone(form.ContactNumber)">{{form.ContactNumber}}</span>
 			</u-form-item>
 			<!-- 如果被接单展示工程师信息 -->
 			<span v-if="form.RepairsStatus > 0">
@@ -31,7 +36,7 @@
 					<span>{{form.OrderPersonName}}</span>
 				</u-form-item>
 				<u-form-item label="工程师电话">
-					<span>{{form.OrderPersonTel}}</span>
+					<span style="color: #007AFF;font-weight: bold;" @click="callPhone(form.OrderPersonTel)">{{form.OrderPersonTel}}</span>
 				</u-form-item>
 			</span>
 			<u-form-item label="图片">
@@ -54,6 +59,11 @@
 			pictureShow
 		},
 		methods: {
+			callPhone(tel) {
+				uni.makePhoneCall({
+					phoneNumber: tel
+				});
+			}
 		},
 		onReady() {
 			this.$refs.uForm.setRules(this.rules)

@@ -2,8 +2,12 @@
     "pages": [
         "pages/main/tab2",
         "pages/main/tab1",
+        "pages/main/tab1_n",
+        "pages/tab1/bccshow",
+        "pages/tab1/gzjx",
+        "pages/tab1/gzdetail",
+        "pages/tab1/train",
         "pages/main/yuanxing",
-        "pages/main/test",
         "pages/main/pdfPreview",
         "pages/main/login",
         "pages/main/tab3",

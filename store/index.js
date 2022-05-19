@@ -10,8 +10,8 @@ const store = new Vuex.Store({
          */
         userName: "",
 		initUrl: 'https://www.mhitco.com:9092/api/',
-		url:"https://www.mhitco.com:9092/api/",
-		// url:"http://www.mhitco.com:9098/api/",
+		// url:"https://www.mhitco.com:9092/api/",
+		url:"http://www.mhitco.com:9098/api/",
 		functionList: []
     },
     mutations: {

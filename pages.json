@@ -3,6 +3,14 @@
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [ //pages数组中第一项表示应用启动页
+		// 开发
+		{
+			"path": "pages/main/tab1_n",
+			"style": {
+				"navigationBarTitleText": "设备监控",
+				"enablePullDownRefresh": true
+			}
+		},
 		{
 			"path": "pages/main/tab2",
 			"style": {
@@ -16,15 +24,41 @@
 				"enablePullDownRefresh": true
 			}
 		},
+		// 10bcc 原型 -start
 		{
-			"path": "pages/main/yuanxing",
+			"path": "pages/tab1/bccshow",
 			"style": {
-				"navigationBarTitleText": "设备监控",
+				"navigationBarTitleText": "状态信息",
 				"enablePullDownRefresh": true
 			}
 		},
 		{
-			"path": "pages/main/test",
+			"path": "pages/tab1/deviceChart",
+			"style": {
+				"navigationBarTitleText": "高频故障统计"
+			}
+		},
+		{
+			"path": "pages/tab1/gzjx",
+			"style": {
+				"navigationBarTitleText": "故障解析"
+			}
+		},
+		{
+			"path": "pages/tab1/gzdetail",
+			"style": {
+				"navigationBarTitleText": "估计原因"
+			}
+		},
+		{
+			"path": "pages/tab1/train",
+			"style": {
+				"navigationBarTitleText": "培训信息"
+			}
+		},
+		// 10bcc 原型 -end
+		{
+			"path": "pages/main/yuanxing",
 			"style": {
 				"navigationBarTitleText": "设备监控",
 				"enablePullDownRefresh": true
@@ -56,6 +90,17 @@
 			"path": "pages/main/tab4",
 			"style": {
 				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/tab1/agent_n",
+			"style": {
+				"navigationBarTitleText": "实时状态"
+			}
+		}, 
+		{
+			"path": "pages/tab1/agentdetail",
+			"style": {
+				"navigationBarTitleText": "实时状态"
 			}
 		}, {
 			"path": "pages/tab1/agent",
@@ -93,12 +138,12 @@
 			"style": {
 				"navigationBarTitleText": "服务评价"
 			}
-		},{
+		}, {
 			"path": "pages/tab2/baoxiuadd",
 			"style": {
 				"navigationBarTitleText": "技术支持申请"
 			}
-		},{
+		}, {
 			"path": "pages/tab2/baoxiudetail",
 			"style": {
 				"navigationBarTitleText": "技术支持详情"

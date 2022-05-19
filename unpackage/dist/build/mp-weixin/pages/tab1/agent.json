@@ -1,4 +1,9 @@
 {
   "navigationBarTitleText": "实时状态",
-  "usingComponents": {}
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-collapse": "/uview-ui/components/u-collapse/u-collapse",
+    "u-collapse-item": "/uview-ui/components/u-collapse-item/u-collapse-item"
+  }
 }

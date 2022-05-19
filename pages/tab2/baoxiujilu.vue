@@ -222,8 +222,11 @@
 		},
 		onReady() {},
 		onShow() {
-			this.initData()
-			this.getStaticsCount()
+			// 已完成的工单，点击详情时 不重新加载
+			if (this.current != 3) {
+				this.initData()
+				this.getStaticsCount()
+			}
 		},
 		onLoad(e) {}
 	}

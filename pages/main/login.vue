@@ -161,17 +161,25 @@
 					},
 					data: {
 						name: this.account,
-						password: this.password
+						password: this.password,
+						type: 2
 					},
 					success: (res) => {
 						this.buttonloading = false
-						if (res.data.Code !== 1) {
+						if (res.data.Code === 0) {
 							uni.showToast({
 								icon: 'none',
 								title: '用户账号或密码不正确',
 							})
 							return;
 						};
+						if (res.data.Code === -2) {
+							uni.showToast({
+								icon: 'none',
+								title: '美恒工程师，不允许登录',
+							})
+							return;
+						}
 						uni.setStorageSync("name", this.account);
 						uni.setStorageSync("password", res.data.Data.session);
 						uni.setStorageSync("yonghu", res.data.Data.用户);
